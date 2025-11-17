@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>American History Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .box {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f7f7f7;
+        }
+        .answer-box {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            border: 1px solid #ccc;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #2c7be5;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>American History Virtual Assistant</h1>
+
+<div class="box">
+    <form method="POST">
+        <input type="text" name="question" placeholder="Ask a history question..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if match_a %}
+    <div class="answer-box">
+        <p><strong>You asked:</strong> {{ user_q }}</p>
+        <p><strong>Closest FAQ match:</strong> {{ match_q }}</p>
+        <p><strong>Answer:</strong> {{ match_a }}</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
