@@ -1,4 +1,4 @@
-# AI-Powered FAQ Helpdesk (American History)
+# AI-Powered FAQ Helpdesk - (American History Example)
 
 An intelligent FAQ helpdesk system that uses Natural Language Processing (NLP) to automatically match user questions with the most relevant answers from a predefined FAQ dataset.
 
