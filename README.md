@@ -14,8 +14,8 @@ This AI-Powered FAQ Helpdesk system:
 
 Before running this project, ensure you have the following installed:
 
-- **Python 3.7 or higher** - [Download Python](https://www.python.org/downloads/)
-- **pip** (Python package installer) - Usually comes with Python
+- **Python 3.7 or higher** 
+- **pip** (Python package installer) 
 
 To check if Python is installed:
 ```bash
