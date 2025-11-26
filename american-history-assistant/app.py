@@ -16,7 +16,9 @@ app = Flask(__name__)
 # --------------------------------------------------------
 # 1. Load the FAQ dataset and clean the text
 # --------------------------------------------------------
-faq_df = pd.read_csv("data/faq_data.csv")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(base_dir, "data", "faq_data.csv")
+faq_df = pd.read_csv(csv_path)
 
 def clean_text(text):
     text = text.lower()
@@ -110,3 +112,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
