@@ -52,7 +52,7 @@ This will install:
 ### Step 1: Start the Flask Server
 
 In Visual Studio Code, 1st select, the app.py file in the "american-history-assistant" folder, and navigate to the menu bar and select "Run" -> then select "Run Without Debugging"
-```
+
 
 You should see output similar to:
 ```
