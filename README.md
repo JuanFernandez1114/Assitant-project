@@ -11,6 +11,9 @@ This AI-Powered FAQ Helpdesk system:
 - Offers a modern, user-friendly web interface
 
 ## Prerequisites
+Visual Studio Code
+
+## Prerequisites
 
 Before running this project, ensure you have the following installed:
 
@@ -30,23 +33,7 @@ python3 --version
 cd american-history-assistant
 ```
 
-### Step 2: Create a Virtual Environment (Recommended)
-
-Creating a virtual environment isolates project dependencies:
-
-**On macOS/Linux:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-**On Windows:**
-```bash
-python3 -m venv venv
-venv\Scripts\activate
-```
-
-### Step 3: Install Required Dependencies
+### Step 2: Install Required Dependencies
 
 Install all required Python packages:
 
@@ -64,16 +51,7 @@ This will install:
 
 ### Step 1: Start the Flask Server
 
-From the `american-history-assistant` directory, run:
-
-```bash
-python3 app.py
-```
-
-Or if using Python directly:
-
-```bash
-python app.py
+In Visual Studio Code, 1st select, the app.py file in the "american-history-assistant" folder, and navigate to the menu bar and select "Run" -> then select "Run Without Debugging"
 ```
 
 You should see output similar to:
@@ -84,7 +62,7 @@ You should see output similar to:
 
 ### Step 2: Access the Application
 
-Open your web browser and navigate to:
+Open your web browser and enter this address on an url search bar :
 
 ```
 http://127.0.0.1:5000
