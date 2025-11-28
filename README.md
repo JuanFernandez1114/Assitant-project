@@ -2,6 +2,8 @@
 
 An intelligent FAQ helpdesk system that uses Natural Language Processing (NLP) to automatically match user questions with the most relevant answers from a predefined FAQ dataset.
 
+Presentation Recording link: https://drive.google.com/file/d/1sJem246q0j43wxepjEVvWyfILpqKVxIf/view?usp=sharing 
+
 ## Project Overview
 
 This AI-Powered FAQ Helpdesk system:
